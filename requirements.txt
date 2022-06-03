@@ -1,0 +1,4 @@
+pandas==1.4.2
+pyTelegramBotAPI==3.7.7
+tweepy == 4.10.0
+openpyxl ==3.0.10
