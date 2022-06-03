@@ -5,11 +5,11 @@ from tweepy import Client
 
 
 def  create_reply(url):
-  usernames = os.environ['staffsid'].strip().split(',')
+  usernames = os.environ['staffsid'].strip().split(',') #use your usernames
   # print(usernames)
-  consumer_key= os.environ['consumer_key']
-  consumer_key_secret=os.environ['consumer_key_secret']
-  bearer_token=os.environ['bearer_token']
+  consumer_key= os.environ['consumer_key'] #use your consumer keys
+  consumer_key_secret=os.environ['consumer_key_secret'] #use your consumer key secret
+  bearer_token=os.environ['bearer_token'] #use your bearer token
   consumer_secret=consumer_key_secret
 
   client = Client(bearer_token= bearer_token,

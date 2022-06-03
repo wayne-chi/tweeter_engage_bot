@@ -3,7 +3,7 @@ import os
 import telebot
 from functions import *
 from  appmain import create_reply
-API_KEY = os.environ['bot_API_KEY']
+API_KEY = os.environ['bot_API_KEY'] #use your api key
 bot = telebot.TeleBot(API_KEY)
 
 def check_link(message):
