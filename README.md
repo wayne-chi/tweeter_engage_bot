@@ -20,6 +20,7 @@ This project uses the following :
 - register twitter accounts you want to monitor their interactions with your tweets.
 - tweets bandwidth (number of tweets before generating reply)
 - tweets reply time ( how long to wait before generating reply)
+- adding a database in soonest possible time.
 ## How to use/install
 - take to your replit account and add keys and value pair for the following:
   - API_KEY value is  bot abi
